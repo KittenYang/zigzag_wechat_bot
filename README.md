@@ -2,8 +2,9 @@
 
 ## 功能
 1. 每隔6.5s 监控做市机器人接单情况，如果新单，会立刻微信通知
-
+<img src="https://user-images.githubusercontent.com/5517281/173199616-efeb3d24-0adf-43ed-87db-bbf00f6dd7bd.jpg" width="200"/>
 2. 通过微信远程执行操作，包括当前运行状态、重启做市程序、查看 pm2 list、查看实时微信机器人日志
+<img src="https://user-images.githubusercontent.com/5517281/173199654-032dd267-3ee4-4902-b3ee-d70da9f6c9ff.jpg" width="200" />
 
 ## 注意事项
 1. ZigZag 做市程序需要使用 pm2 服务开启
