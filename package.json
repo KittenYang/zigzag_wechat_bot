@@ -1,0 +1,28 @@
+{
+  "name": "new-ts-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet": "^1.20.1",
+    "wechaty-puppet-padlocal": "^1.11.18"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@types/react": "^18.0.12",
+    "@types/request": "^2.48.8",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "bot": "npx ts-node src/main.ts",
+    "bot-esm": "cross-env NODE_OPTIONS=\"--no-warnings --loader=ts-node/esm\" node src/main.ts"
+  }
+}
